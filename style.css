@@ -40,16 +40,18 @@ font-size: 50px;
 .menu{
     z-index: 10;
     color: black;
-position: absolute;
-    top: 10px;
-    right: 20px;
+position: fixed;
+width: 95%;
     cursor: pointer;
-    list-style: none;}
+    list-style: none;
+background-color: cornflowerblue;}
 
 
 .menuoptions{
-float: left;
-padding: 10px;
+display: inline;
+font-size: x-large;
+font-weight: 900;
+padding: 100px;
 font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 .menuoptions:hover{
@@ -96,4 +98,8 @@ font-size: 29px;
 }
 #i:hover{
     transform: scale(.8);
+}
+
+#Contacts h3{
+    display: inline;
 }
